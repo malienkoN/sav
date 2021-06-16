@@ -1,0 +1,50 @@
+.intro .swiper-container {
+  width: 100%;
+  min-height: 700px;
+}
+
+.intro .swiper-slide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro__item {
+  min-height: 700px;
+  position: relative;
+}
+
+.intro__item img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.intro__item-title {
+  font-size: 50px;
+  font-weight: 300;
+  color: $white;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+//.intro .swiper-pagination-bullets .swiper-pagination-bullet {
+//  margin: 0 7px;
+//  width: 5px;
+//  height: 5px;
+//}
+
+.intro .swiper-pagination-bullet-active {
+  background: $white;
+}
+
+//.intro .swiper-pagination-progressbar {
+//  top: inherit;
+//  bottom: 0;
+//}
+//
+//.intro .swiper-pagination-progressbar-fill {
+//  background: $white;
+//}

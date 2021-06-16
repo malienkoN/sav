@@ -13,6 +13,8 @@ body {
   line-height: 1.3;
   color: $blue;
   font-family: 'PFBeauSansPro', sans-serif;
+
+  position: relative; //for header
 }
 
 .container {
