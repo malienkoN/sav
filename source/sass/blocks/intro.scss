@@ -48,3 +48,50 @@
 //.intro .swiper-pagination-progressbar-fill {
 //  background: $white;
 //}
+
+@media (max-width: 1279px) {
+  .intro__item img {
+    max-width: 280px;
+  }
+
+  .intro__item-title {
+    font-size: 40px;
+  }
+
+  .intro .swiper-container {
+    min-height: 490px;
+  }
+
+  .intro__item {
+    min-height: 490px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro .swiper-container {
+    min-height: 568px;
+  }
+
+  .intro__item {
+    padding-top: 90px;
+    min-height: 568px;
+
+    img {
+      left: 50%;
+      transform: translateX(-50%);
+      right: auto;
+      max-width: none;
+      max-height: 400px;
+    }
+  }
+
+  .intro__item-title {
+    position: static;
+    transform: none;
+  }
+
+  .intro__item-title {
+    text-align: center;
+    font-size: 22px;
+  }
+}

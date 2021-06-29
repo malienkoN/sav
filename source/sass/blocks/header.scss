@@ -1,5 +1,21 @@
+.header {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  left: 0;
+  z-index: 99;
+
+  color: $white;
+
+  &--mod {
+    color: $blue;
+  }
+}
+
 .header__inner {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
@@ -11,4 +27,15 @@
   margin-right: 15px;
   font-size: 18px;
   font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .header .container {
+    padding: 0 10px;
+  }
+
+  .header__logo span {
+    font-size: 12px;
+    margin-right: 10px;
+  }
 }

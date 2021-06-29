@@ -1,0 +1,72 @@
+.watch {
+  background: url("../img/watch-bg.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 492px;
+  color: $white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.watch__title {
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.watch__btn {
+  display: flex;
+  align-items: center;
+  color: $white;
+
+  img {
+    margin-right: 23px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .watch {
+    min-height: 332px;
+    align-items: center;
+  }
+
+  .watch__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .watch__btn {
+    margin: 0 auto;
+    font-size: 14px;
+
+    img {
+      margin-right: 15px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .watch {
+    min-height: 208px;
+  }
+
+  .watch__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .watch__btn {
+    margin: 0 auto;
+    font-size: 10px;
+
+    img {
+      margin-right: 10px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
